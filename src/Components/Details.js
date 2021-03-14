@@ -9,6 +9,7 @@ const Details = ({id, data}) => {
                 if (id === rowItem.id) {
                     setRowDetails(rowItem)
                 }
+                return
             })
         }
     })

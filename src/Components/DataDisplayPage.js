@@ -45,6 +45,8 @@ const DataDisplayPage = () => {
                 tempArr.push(item)
                 setData(tempArr)
             }
+
+            return;
         })
     }
 

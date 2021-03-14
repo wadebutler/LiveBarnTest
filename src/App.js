@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import EmptyTab from './Components/EmptyTab'
 import DataDisplayPage from './Components/DataDisplayPage';
 import './styles/styles.css';
