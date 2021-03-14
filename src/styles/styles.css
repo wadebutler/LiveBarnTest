@@ -1,0 +1,225 @@
+.appContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.seperator {
+  border-right: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.dataContaniner {
+  text-align: center;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 10px;
+  height: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100px;
+}
+
+.mainIsActive {
+  border: 1px solid white;
+  background: steelblue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.mainButton {
+  border: 1px solid white;
+  background: white;
+  color: steelblue;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  outline: none;
+}
+
+.mainButton:hover, .mainButton:focus {
+  background: steelblue;
+  color: white;
+}
+
+.dataIsActive {
+  outline: none;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  color: black;
+  background: white;
+  border: 1px solid #e9e9e9;
+}
+
+.dataButton {
+  color: steelblue;
+  background: white;
+  border: 1px solid white;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.dataButton:hover, .dataButton:focus {
+  color: black;
+  border: 1px solid #e9e9e9;
+}
+
+.emptyText {
+  font-size: 30px;
+  height: 94vh;
+}
+
+.headerTitleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerTitle {
+  font-weight: bold;
+  border: 1px solid #e9e9e9;
+  padding: 10px;
+  margin: 20px 0 0 0;
+}
+
+.dataButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+}
+
+.searchIcon {
+  background: #e9e9e9;
+  padding: 3px 6px 3px 4px;
+  border-radius: 5px 0 0 5px;
+}
+
+.searchBarContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.dataPageContainer {
+  border: 1px solid #e9e9e9;
+  margin: 0 10px;
+}
+
+.gridContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.grid {
+  width: 75%;
+}
+
+.detailsContainer {
+  width: 25%;
+  height: 500px;
+  background: steelblue;
+  margin: 20px 10px 0;
+}
+
+.scrollContainer {
+  height: 80vh;
+  overflow: scroll;
+}
+
+.detailsHeader {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+.gridRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  border: none;
+  width: 100%;
+  padding: 0;
+}
+
+.gridRow:hover, .gridRow:focus {
+  background: #add8e6;
+}
+
+.gridItem {
+  border: 1px solid #e9e9e9;
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+  height: 30px;
+}
+
+.venue {
+  width: 25%;
+}
+
+.surface {
+  width: 25%;
+}
+
+.status {
+  width: 25%;
+}
+
+.sport {
+  width: 25%;
+}
+
+.ip {
+  width: 50%;
+}
+
+.dns {
+  width: 50%;
+}
+
+.detailItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.detailsTextBoxContainer {
+  padding: 10px;
+}
+
+.detailsText {
+  color: white;
+  padding: 0;
+  text-align: left;
+}
+
+.space {
+  padding-right: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

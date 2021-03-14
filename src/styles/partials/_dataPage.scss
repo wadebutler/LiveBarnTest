@@ -1,0 +1,106 @@
+.headerTitleContainer {
+    display: flex;
+}
+
+.headerTitle {
+    font-weight: bold;
+    border: 1px solid $grey;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+
+.dataButtonContainer {
+    display: flex;
+    margin-left: 10px;
+}
+
+.searchIcon {
+    background: $grey;
+    padding: 3px 6px 3px 4px;
+    border-radius: 5px 0 0 5px;
+}
+
+.searchBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dataPageContainer {
+    border: 1px solid $grey;
+    margin: 0 10px;
+}
+
+.gridContainer {
+    display: flex;
+    width: 100%;
+}
+
+.grid {
+    width: 75%;
+}
+
+.detailsContainer {
+    width: 25%;
+    height: 500px;
+    background: $blue;
+    margin: 20px 10px 0;
+}
+
+.scrollContainer {
+    height: 80vh;
+    overflow: scroll;
+}
+
+.detailsHeader {
+    color: $white;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.gridRow {
+    display: flex;
+    background: $white;
+    border: none;
+    width: 100%;
+    padding: 0;
+
+    &:hover, &:focus {
+        background: $lightBlue;
+    }
+}
+
+.gridItem {
+    border: 1px solid $grey;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+    height: 30px;
+}
+
+.venue {
+    width: 25%;
+}
+
+.surface {
+    width: 25%;
+}
+
+.status {
+    width: 25%;
+}
+
+.sport {
+    width: 25%;
+}
+
+.ip {
+    width: 50%;
+}
+
+.dns {
+    width: 50%;
+}

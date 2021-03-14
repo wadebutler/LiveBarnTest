@@ -1,0 +1,55 @@
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    height: 100px;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.mainIsActive {
+    border: 1px solid $white;
+    background: $blue;
+    color: $white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.mainButton {
+    border: 1px solid $white;
+    background: $white;
+    color: $blue;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+    outline: none;
+
+    &:hover, &:focus {
+        background: $blue;
+        color: $white;
+    }
+}
+
+.dataIsActive {
+    outline: none;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    color: $black;
+    background: $white;
+    border: 1px solid $grey;
+}
+
+.dataButton {
+    color: $blue;
+    background: $white;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+
+    &:hover, &:focus {
+        color: $black;
+        border: 1px solid $grey;
+    }
+}
